@@ -1,0 +1,88 @@
+
+
+body{
+  background-image: url(../img/backgroundgreen.png);
+
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+#p1video1 {
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+    
+}
+
+#p1video2 {
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+    
+}
+
+.gif1 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+    background-color: #ff4814;
+  }
+  
+  .container {
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+   
+  }
+  
+  .charactors {
+    animation: float 3s ease-out infinite;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  width: 50%;
+  }
+  
+  @keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+  }
+ 
+  
+  
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
