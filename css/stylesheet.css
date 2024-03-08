@@ -34,19 +34,19 @@ h2{
 }
 
 .gif1 {
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block
+  margin-left: auto
+  margin-right: auto
   width: 50%;
 }
 
 body {
-    background-color: #ff4814;
+    
   }
   
   .container {
-    display: block;
-    margin-top: auto;
+    justify-content: center;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -54,14 +54,29 @@ body {
 
    
   }
+
+ 
+
+
+  
+
+
+ 
   
   .charactors {
+    
     animation: float 3s ease-out infinite;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30%;
-  width: 50%;
+    margin-top: 30%;
+    display: block
+  margin-left: auto
+  margin-right: auto
+  margin-top: 60%
+ 
+ 
+  }
+
+  .a2 {
+    margin-top: 64%;
   }
   
   @keyframes float {
