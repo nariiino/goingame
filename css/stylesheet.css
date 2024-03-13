@@ -1,7 +1,8 @@
 
 
 body{
-  background-image: url(../img/backgroundgreen.png);
+  background-image: url(../img/main.png);
+ 
 
 }
 
@@ -14,22 +15,21 @@ h2{
 }
 
 #p1video1 {
-    position: fixed;
+  position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
   z-index: -1;
+ 
+
     
 }
 
 #p1video2 {
-    position: fixed;
+  position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
   z-index: -1;
+ 
     
 }
 
@@ -64,7 +64,8 @@ body {
  
   
   .charactors {
-    
+   
+    position: relative;
     animation: float 3s ease-out infinite;
     margin-top: 30%;
     display: block
@@ -78,6 +79,18 @@ body {
   .a2 {
     margin-top: 64%;
   }
+
+  .a22 {
+    margin-top: 64%;
+    z-index: -1;
+
+  }
+
+  .a1 {
+    margin-top: 64%;
+  }
+
+ 
   
   @keyframes float {
     50% {
@@ -101,3 +114,31 @@ body {
       margin: 0 5%;
     }
   }
+
+
+  .levels {
+    text-align: center;
+    margin: 0%;
+
+  }
+
+  .image{
+    position: relative;
+    margin-top: 64%;
+    
+}
+
+
+  .image__overlay{
+    position: absolute;  
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition:opacity 0.9s;
+ 
+  
+}
+
+.image__overlay:hover{
+  opacity: 1; 
+}
