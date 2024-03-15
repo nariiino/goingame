@@ -11,6 +11,8 @@ body{
   background-repeat: no-repeat, repeat;
   background-size: cover;
   background-attachment: scroll;
+  min-width: 100%;
+  min-height: 100%;
 
 
 }
