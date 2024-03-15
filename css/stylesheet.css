@@ -22,6 +22,14 @@ body{
 
 .startover {
   background-image: url(../img/mainstartover.png);
+  background-color: black;
+  background-image: url(../img/main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-width: 100%
+  min-height: 100%
+
 }
 
 h1{
@@ -56,8 +64,8 @@ h2{
 
 .start {
   position: relative;
-  margin-left: 1000px;
-  margin-top: 300px;
+  margin-left: 50%;
+  margin-top: 20px;
 }
 
 .startoverlay {
