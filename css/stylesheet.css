@@ -73,9 +73,10 @@ h2{
 }
 
 .start {
-  position: relative;
-  margin-left: 50%;
-  margin-top: 20px;
+  
+  position: absolute;
+  left: 1250px;
+  top: 550px;
 }
 
 .startoverlay {
