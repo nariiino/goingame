@@ -73,10 +73,9 @@ h2{
 }
 
 .start {
-  
   position: absolute;
-  left: 1150px;
-  top: 550px;
+  left: 1000px;
+  top: 500px;
 }
 
 .startoverlay {
