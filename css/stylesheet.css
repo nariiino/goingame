@@ -9,6 +9,7 @@ body{
 
 .index {
   background-color: black;
+  margin-top: -10%;
  
 
 }
@@ -16,6 +17,8 @@ body{
 
 
 .startover {
+  background-image: url(../img/mainstartover.png);
+  z-index: 0;
   position: absolute;
   margin-top: 20%;
   background-color: black;
@@ -314,27 +317,51 @@ display: block;
 }
 
 
+.startoverbutton {
+  max-width: 15%;
+  position: absolute;
+  margin-left: 50%;
+  z-index: 2;
+  opacity: 1;
+}
+
+
 @media screen and (max-width: 600px) {
 
    
-  .mainpic img {
-    position: relative;
-    left: -10%;
-     width: 130%;
-     text-align: center;
-     margin-top: 65%;
-    }
-  
-  .start img {
-    position: relative;
-    left: -175%;
-    top: -0%;
-    width: 240%;
-   
+  .containermain {
+    max-width: 80%;
+    margin-left: 9%;
+    
+    flex-direction: column;
+    justify-content: center;
+    margin: 1%;
+  }
+
+
+
+  img {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .start {
+    max-width: 100%;
+    margin-left: 7%;
+  }
+
+  .main1 {
+
+   width: 120%;
+  }
+
+  .main2 {
+    margin-left: 24%;
+
+  }
   
   }
   
-}
 
 
 
