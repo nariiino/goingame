@@ -329,6 +329,9 @@ display: block;
 @media screen and (max-width: 600px) {
 
    
+  .index {
+    margin-top: 10%;
+  }
   .containermain {
     max-width: 80%;
     margin-left: 9%;
@@ -356,7 +359,7 @@ display: block;
   }
 
   .main2 {
-    margin-left: 24%;
+    margin-left: 40%;
 
   }
   
