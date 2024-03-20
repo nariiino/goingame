@@ -16,7 +16,10 @@ body{
 
 
 .startover {
+  position: absolute;
+  margin-top: 20%;
   background-color: black;
+ 
   
 }
 
@@ -69,11 +72,10 @@ h2{
 }
 
 .start {
+  max-width: 15%;
 position: absolute;
-  z-index: 2;
-  left: 70%;
-  bottom: 25%;
- 
+margin-left: 3.5%;
+z-index: 2;
 
 
 }
@@ -261,15 +263,6 @@ transition:opacity 2s;
 }
 
 
- 
-
-
-
-
-
-
-
-
 .grid {
   position: fixed;
   display: flex;
@@ -294,6 +287,53 @@ transition:opacity 2s;
   transition: opacity 0.2s ease;
   transform: scale(1.04);
   z-index: 1
+}
+
+.containermain {
+  margin: 100px;
+ 
+  justify-content: center;
+  margin-top: 20%;
+justify-content: center;
+display: block;
+  display: flex;
+  flex-direction: row;
+  
+  
+    
+  
+}
+
+#pic1 {
+ max-width: fit-content;
+}
+
+.mainpic {
+ width: 10%;
+ z-index: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+
+   
+  .mainpic img {
+    position: relative;
+    left: -10%;
+     width: 130%;
+     text-align: center;
+     margin-top: 65%;
+    }
+  
+  .start img {
+    position: relative;
+    left: -175%;
+    top: -0%;
+    width: 240%;
+   
+  
+  }
+  
 }
 
 
