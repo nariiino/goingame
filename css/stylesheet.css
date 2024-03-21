@@ -162,10 +162,20 @@ body {
     margin-left: auto
     margin-right: auto
     margin-top: 60%
-  
- 
+    transition: 1s ease;
+
  
   }
+
+ 
+    
+   .charactors:hover img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+  
 
   
 
